@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+.container-titulo {
+    background-color: #FFF159;
+    padding: 10px 150px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-around; 
+}
+
+header img {
+    width: 150px;      
+}
+
+#disney {
+    height: 30px;    
+    padding-top: 5px;
+}
+
+.busca {
+    width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+.container-menu {
+    display: flex;
+    
+}
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    border: 1px solid black;
+}
+
+.lista-menu li a {
+    text-decoration: none;   
+}
+
+#list-menu1 {
+    padding: 10px 150px;
+}
+
+#list-menu2 {
+    padding: 10px 100px;
+}

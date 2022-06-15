@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Camisa Do Vasco Jogo 22/33 Oficial</title>
 </head>
 <body>
@@ -17,9 +18,29 @@
 
         <nav class="container-menu">
             <ul id="list-menu1" class="lista-menu">
-                <li>
-                    <a href="#">Categorias</a>
-                </li>
+                <div class="dropdown">
+                    <li>
+                        <a href="#">Categorias
+                            <i class='bx bx-chevron-down'></i>
+                        </a>
+                    </li>
+                    
+                    <div class="dropdown-content">
+                        <a href="#">Veículos</a>
+                        <a href="#">Supermercados</a>
+                        <a href="#">Tecnologia</a>
+                        <a href="#">Casa e Móveis</a>
+                        <a href="#">Eletrodomésticos</a>
+                        <a href="#">Esporte e Fitness</a>
+                        <a href="#">Ferramentas</a>
+                        <a href="#">Construção</a>
+                        <a href="#">Imóveis</a>
+                        <a href="#">Saúde</a>
+                        <a href="#">Brinquedos</a>
+                        <a href="#">Moda</a>
+                        <a href="#">Bebês</a>
+                    </div>
+                </div>
                 <li>
                     <a href="#">Ofertas do dia</a>
                 </li>
@@ -40,21 +61,62 @@
                 </li>
                 <li>
                     <a href="#">Contato</a>
-                </li> 
+                </li>                 
             </ul>
 
             <ul id="list-menu2" class="lista-menu">
                 <li>
-                    <a href="#">Pedro</a>
+                    <a href="#">Crie sua conta</a>
+                </li>
+                <li>
+                    <a href="#">Entre</a>
                 </li>
                 <li>
                     <a href="#">Compras</a>
                 </li>
                 <li>
-                    <a href="#">Favoritos</a>
+                    <a href="#">
+                        <i class='bx bx-cart bx-tada' ></i>
+                    </a>
                 </li>
             </ul>
         </nav>
     </div>
+
+    <main>
+        <div class="container-produto">
+            <div class="camisa-mini">
+                <img src="img/camisa-1.png" alt="CamisaVasco">
+            </div>
+            <div class="camisa-big">
+                <img src="img/camisa-1.png" alt="CamisaVasco">
+            </div>
+            
+                <div class="description">
+                    <p>Novo   |   39 vendidos</p>
+                    <h2>Camisa do Vasco Jogo 22/33 Oficial </h2>
+                    <h3>R$ 259,99</h3>
+                    <h4>em <span class="cor"> 6x R$ 43,33 sem juros</span></h4>
+                    <p class="cor">Chegará grátis sexta-feira</p>
+                    <p class="cor">Retire grátis a partir de sexta-feira em uma agência Mercado Livre</p>
+                    <div class="tamanhos">
+                        <p>Tamanhos:</p>
+                        <ul>
+                            <li>P</li>
+                            <li>M</li>
+                            <li>G</li>
+                            <li>GG</li>
+                        </ul>
+                    </div>
+                    <p>Estoque Disponível</p>
+                    <p>Quantidade: 1 unidade (2000 disponível)</p>
+                    <div class="botao">
+                        <button>Comprar agora</button>
+                        <button>Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            
+        </div>
+    </main>
 </body>
 </html>

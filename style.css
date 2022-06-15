@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
     padding: 0;
     margin: 0;   
 }
 
 .container-titulo {
+    width: 100%;
     background-color: #FFF159;
-    padding: 10px 150px;
+    padding: 10px;
 }
 
 .titulo {
@@ -31,23 +34,145 @@ header img {
 
 .container-menu {
     display: flex;
-    
+    justify-content: center;  
 }
 
 .lista-menu {
     list-style: none;
     display: flex;
-    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.lista-menu li {
+    display: flex;
+    margin: 0 10px;   
 }
 
 .lista-menu li a {
-    text-decoration: none;   
-}
-
-#list-menu1 {
-    padding: 10px 150px;
+    text-decoration: none; 
+    color: rgb(54, 54, 54);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;  
 }
 
 #list-menu2 {
-    padding: 10px 100px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown li a {
+    display: flex;
+}
+
+.dropdown li a i {
+    padding-top: 4px;
+    padding-left: 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    padding: 15px 15px;
+    margin-top: 10px;
+    background-color: rgb(43, 43, 43);
+    min-width: 130px;    
+    line-height: 35px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: white;  
+}
+
+.container-produto {
+    display: flex;
+    margin: 40px 25px;
+}
+
+.camisa-mini {
+    padding: 20px;      
+}
+
+.camisa-mini img {
+    width: 80px;
+    height: 90px;
+    border: 1px solid black; 
+    border-radius: 4px; 
+}
+
+.camisa-big {
+    padding: 90px 130px 0px 50px;
+     
+}
+
+.camisa-big img {
+    width: 400px;
+    height: 500px;  
+    border-bottom: 1px solid black; 
+    padding-bottom: 50px; 
+}
+
+.description {
+    height: 700px;
+    width: 325px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 15px;
+    border: 1px solid black; 
+    border-radius: 5px;   
+}
+
+.description p {
+    padding-top: 25px;
+}
+
+.description h2 {
+    padding-top: 15px;
+}
+
+.description h3 {
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.cor {
+    color: green;
+    font-weight: bold;
+}
+
+.tamanhos ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 5px;    
+}
+
+.tamanhos ul li {
+    margin-right: 15px;
+    padding: 4px 10px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 7px;   
+}
+
+.botao {
+    display: block;
+    padding-top: 20px;
+    text-align: center; 
+}
+
+button {
+    width: 250px;
+    height: 45px;
+    margin-top: 20px;
 }

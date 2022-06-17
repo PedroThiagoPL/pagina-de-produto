@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1279px) {
+    #disney {
+        display: none;
+    }
+
+    .busca {
+        width: 500px;
+        display: flex;
+        
+    }
+
+    .lista-menu li a {
+        font-size: 0.8rem;
+       
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    .hamburguer.active .bar:nth-child(2) { /*Para sumir a barra do meio do nav bar */
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .lista-menu {
+        position: fixed;
+        left: 100%;
+        top: 70px;
+        gap: 0;
+        border-radius: 0 0 20px 20px;
+        background-color: #101026;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .lista-menu.active {
+        left: 0;
+    }
+
+    .lista-menu li {
+        margin: 16px 0;
+    }
+
+}

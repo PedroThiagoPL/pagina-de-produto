@@ -1,21 +1,63 @@
+@media only screen and (min-width: 1280px) {
+      
+    #logo {
+        padding-right: 50px;
+    }
+
+    .busca {
+        margin-left: 15px;
+    }
+    
+    #disney {
+        padding-left: 50px;
+    }
+
+    .container-modal {
+        margin: 50px 0;
+    }
+
+    .container-produto {
+        margin-bottom: 0;
+    }
+}
+
 @media only screen and (max-width: 1279px) {
+    .container-titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo {
+        padding-right: 80px;
+        width: 150px;
+    }
+    
     #disney {
         display: none;
     }
 
     .busca {
-        width: 500px;
+        width: 300px;
         display: flex;
+        padding-right: 40px;
         
     }
 
     .lista-menu li a {
-        font-size: 0.8rem;
-       
+        font-size: 1rem;
+        font-size: 0.8rem;       
+    }
+
+    .dropdown-content {
+        margin-left: 135px;
+        margin-top: 0;
+        top: 0;
     }
 
     .hamburguer {
         display: block;
+        padding-left: 80px;
+        margin-top: 9px;
     }
 
     .hamburguer.active .bar:nth-child(2) { /*Para sumir a barra do meio do nav bar */
@@ -33,14 +75,18 @@
     .lista-menu {
         position: fixed;
         left: 100%;
-        top: 70px;
+        top: 40px;
         gap: 0;
-        border-radius: 0 0 20px 20px;
-        background-color: #101026;
+        border-radius: 0 0 10px 10px;
+        background-color: white;
         text-align: center;
         flex-direction: column;
         width: 100%;
         transition: 0.3s;
+    }
+
+    .lista-menu li a {
+        padding-left: 20px;
     }
 
     .lista-menu.active {
@@ -51,4 +97,90 @@
         margin: 16px 0;
     }
 
+    .container-modal {
+        margin: 50px 0;
+    }
+
+    .container-produto {
+        margin-bottom: 0;
+    }
+
+    .camisa-mini img {
+        width: 55px;
+        height: 70px;
+    }
+
+    button {
+        width: 220px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-titulo {
+        padding: 10px 0;
+        justify-content: center;
+    }
+    
+    #logo {
+        display: none;
+    }
+
+    #logo-menor {
+        display: flex;
+        padding-right: 10px;
+    }
+
+    .busca {
+        width: 250px;
+        padding-right: 0px;
+        margin-left: 4px;
+    }
+
+    .hamburguer {
+        padding-left: 40px;
+    }
+
+    .container-modal {
+        margin: 50px 0;
+    }
+
+    .container-produto {
+        display: block;
+        padding: 0px 0px;
+        width: 90%;
+    }
+
+    .camisa-mini {
+        display: none;
+    }
+
+    .camisa-big {
+        text-align: center;
+        padding: 0;
+    }
+
+    .camisa-big img {
+        border-bottom: none;
+    }
+
+    .description {
+        margin: 15px auto;
+    }
+
+    button {
+        width: 300px;
+        height: 45px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .camisa-big {
+        margin: 15px auto;
+        padding: 0;
+    }
+
+    .hamburguer {
+        padding-left: 15px;
+    }
 }

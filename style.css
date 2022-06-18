@@ -249,15 +249,13 @@ button {
     text-align: center; 
 }
 
-
-
 .botao1 {
     background-color: #3883f5;
     color: white;
     font-weight: bold;
     border: transparent;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .botao1:hover {

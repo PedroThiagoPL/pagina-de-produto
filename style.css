@@ -222,6 +222,10 @@ body {
     border-radius: 7px;   
 }
 
+.tamanhos ul li:hover {
+    border: 2px solid #3883f5;
+}
+
 .esto-disp {
     font-size: 0.8rem;
     font-weight: bold;
@@ -245,6 +249,8 @@ button {
     text-align: center; 
 }
 
+
+
 .botao1 {
     background-color: #3883f5;
     color: white;
@@ -254,11 +260,19 @@ button {
     cursor: pointer;
 }
 
+.botao1:hover {
+    background-color: #1772fc;
+}
+
 .botao2 {
-    background-color: #e7f0fa;
+    background-color: #c7e0fc;
     color: #3883f5;
     font-weight: bold;
     border: transparent;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.botao2:hover {
+    background-color: #b1d6ff;
 }

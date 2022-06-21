@@ -39,8 +39,7 @@
     .busca {
         width: 300px;
         display: flex;
-        padding-right: 40px;
-        
+        padding-right: 40px;        
     }
 
     .lista-menu li a {
